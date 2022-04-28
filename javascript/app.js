@@ -85,7 +85,6 @@ const _ = {
             let params = {};
             url.forEach((v, k) => params[k] = v);
             const route = _.method._paramsToRoute(params);
-            console.log("-->--->",route);
             const content = await fetch(route[0]).then((data) => data.text());
             document.getElementById("content").innerHTML = content;
             _.events(false);
