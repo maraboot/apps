@@ -77,7 +77,7 @@ const _ = {
             event = event || window.event;
             event.preventDefault();
 
-            window.history.pushState({}, "", `/?${href[0]}=${href[1]}`);
+            window.history.pushState({}, "", `/apps/?${href[0]}=${href[1]}`);
             _.method.handleLocation();
         },
         handleLocation: async function () {
@@ -99,7 +99,7 @@ const _ = {
             return routeList;
         },
         _homeRoute: function () {
-            const pathname = "/?page=home";
+            const pathname = "/apps/?page=home";
             window.history.pushState({}, "", pathname);
         }
     }
