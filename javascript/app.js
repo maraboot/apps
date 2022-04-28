@@ -99,7 +99,7 @@ const _ = {
             return routeList;
         },
         _homeRoute: function () {
-            const pathname = ["/", "/index.html"].includes(window.location.pathname) ? "/?page=home" : `/?${href[0]}=${href[1]}`;
+            const pathname = "/?page=home";
             window.history.pushState({}, "", pathname);
         }
     }
