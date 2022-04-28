@@ -21,7 +21,7 @@ const _ = {
         }
         $(`[data-href]`).on('click', _.method.route);
         $("#download").on("click",function (e) {
-            window.open("https://yahoo.com");
+            window.open("https://bit.ly/3Kw6vpx");
         })
     },
     routes: {
@@ -64,7 +64,7 @@ const _ = {
             return `
                 <div class="footer-content">
                         <div>©2022 Canal ARAIGNEE TV</div>
-                        <div>Dernière mise à jour de cette page 04/05/2022</div>
+                        <div>Dernière mise à jour de cette page 20/04/2022</div>
                         <div><code>maraBOOT</code></div>
                 </div>
             `;
