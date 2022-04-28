@@ -25,11 +25,11 @@ const _ = {
         })
     },
     routes: {
-        "404": "../pages/error.html",
+        "404": "/apps/pages/error.html",
         "page": {
-            "/": "../pages/home.html",
-            "home": "../pages/home.html",
-            "about": "../pages/about.html",
+            "/": "/apps/pages/home.html",
+            "home": "/apps/pages/home.html",
+            "about": "/apps/pages/about.html",
         },
     },
     component: {
