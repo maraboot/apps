@@ -65,6 +65,7 @@ const _ = {
                 <div class="footer-content">
                         <div>©2022 Canal ARAIGNEE TV</div>
                         <div>Dernière mise à jour de cette page 20/04/2022</div>
+                        <div><a href="mailto:maraboot225@gmail.com">Nous contacter</a></div>
                         <div><code>maraBOOT</code></div>
                 </div>
             `;
